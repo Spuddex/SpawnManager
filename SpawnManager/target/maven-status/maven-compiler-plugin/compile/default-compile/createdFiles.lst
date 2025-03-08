@@ -1,0 +1,6 @@
+com\example\spawnmanager\SpawnManagerPlugin.class
+com\example\spawnmanager\commands\SpawnCommand.class
+com\example\spawnmanager\config\WorldCleaningSettings.class
+com\example\spawnmanager\service\WorldCleanerService.class
+com\example\spawnmanager\config\ConfigManager.class
+com\example\spawnmanager\commands\SpawnCommand$1.class

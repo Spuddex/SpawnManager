@@ -1,0 +1,33 @@
+# SpawnManager Configuration
+
+# Spawn location configuration
+spawn:
+  world: world
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+  message-enabled: true
+  message: "§aTeleported to spawn!"
+  timer:
+    enabled: true
+    seconds: 3
+    cancel-on-move: true
+    countdown-message: "§eTeleporting to spawn in %seconds% seconds..."
+    cancelled-message: "§cTeleport cancelled due to movement!"
+
+# World-specific cleaning settings
+worlds:
+  world:
+    clean-mythic-mobs: true
+    clean-items: true
+    clean-entities: true
+    clean-holograms: true
+    clean-projectiles: true
+  world_nether:
+    clean-mythic-mobs: false
+    clean-items: false
+    clean-entities: false
+    clean-holograms: false
+    clean-projectiles: false

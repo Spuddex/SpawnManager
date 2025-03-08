@@ -1,0 +1,9 @@
+name: SpawnManager
+version: '${project.version}'
+main: com.example.spawnmanager.SpawnManagerPlugin
+api-version: '1.20'
+depend: [MythicMobs]
+commands:
+  spawn:
+    description: Teleport to spawn and clean entities in the world
+    usage: /<command>
